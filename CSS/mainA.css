@@ -89,6 +89,52 @@ input {
     margin-top: 3px;   /* See how this works */
 }
 
+.text_links {
+    position: relative;
+    width: 70%;
+    height: 260px;
+    /* border: 2px solid red; */
+    margin: 10px auto 0 auto;
+    color: #ffffff;
+}
+
+.main_txt {
+    position: relative;
+    width: 90%;
+    font-family: Helvetica;
+    /*font-family: "Arial Unicode MS";*/
+    font-size: 60px;
+    font-weight: lighter;
+    margin: 60px auto 0 auto;
+}
+
+.sub_txt {
+    position: relative;
+    width: 95%;
+    text-align: center;
+    font-family: Helvetica;
+    /*font-family: "Arial Unicode MS";*/
+    font-size: 25px;
+    font-weight: lighter;
+    margin: 10px auto 10px auto;
+}
+
+.sub_txt2 {
+    position: relative;
+    width: 95%;
+    text-align: center;
+    font-family: Helvetica;
+    /*font-family: "Arial Unicode MS";*/
+    font-size: 20px;
+    font-weight: lighter;
+    margin: 15px auto 0 auto;
+    float: left;
+}
+
+.sub_txt2:hover {
+    text-decoration: underline;
+}
+
 .products {
 	border: 1px solid #fff;
 	display: inline-block;
@@ -110,4 +156,78 @@ input {
 
 #suppliers {
 	background: url(http://web.archive.org/web/20140301004352im_/http://images.apple.com/home/images/promo_supplier_responsibility.jpg) 50% 0 no-repeat;
+}
+
+.bartext {
+    font-size: 11px;
+    margin: auto;
+}
+
+#t1, #t3 {
+    color: rgb(110, 110, 110);
+    margin-top: 30px;
+    margin-left: 70px;
+    float: left;
+}
+
+#t3 {
+    margin-top: 20px;
+}
+
+#smap {
+    color: #08c;
+    margin-top: 30px;
+    margin-left: 30px;
+    float: left;
+}
+
+#smap:hover {
+    text-decoration: underline;
+}
+
+#upbar, #hnews, #feeds, #minfo, #env, #jobs, #contact {
+    color: #08c;
+    margin-top: 30px;
+    margin-left: 3px;
+    margin-right: 3px;
+    float: left;
+}
+
+#hnews:hover, #feeds:hover, #minfo:hover, #env:hover, #jobs:hover, #contact:hover {
+    text-decoration: underline;
+}
+
+#upbar{
+    color: black;
+}
+
+.blufont {
+    color: #08c;
+}
+
+.blufont:hover {
+    text-decoration: underline;
+}
+
+#upbar1, #privacy {
+    margin-top: 20px;
+    margin-left: 3px;
+    margin-right: 3px;
+    float: left;
+}
+
+#usflag {
+    width: 20px;
+    margin-top: 27px;
+    float: left;
+}
+
+.fix {
+    display: inline-block;
+    background-position: 480px 32px;
+}
+
+#play {
+    width: 25px;
+    margin-bottom: -5px;
 }
