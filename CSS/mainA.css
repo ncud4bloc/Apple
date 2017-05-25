@@ -1,3 +1,8 @@
+a {
+    color: #08c;
+    text-decoration: none;
+}
+
 #full_page {
     background-color: #fff;
     width: auto; 
@@ -14,61 +19,75 @@
 	height: 540px;
 	position: relative;
     border: 1px solid #fff;
-    width: 99.5%
+    width: 100%
 }
 
 .nav_bar {
     position: relative;
     background-color: #3d3d29;
+    background: linear-gradient(#aaa, #bbb 49%, #999 51%, #888);
+    /*background: -webkit-linear-gradient(#ffffff, #000000);
+    background: -moz-linear-gradient(#ffffff, #000000);
+    background: -ms-linear-gradient(#ffffff, #000000);*/
     width: 85%;
-    border-radius: 3px;
+    width: 800px;
+    border-radius: 4px;
     margin: 5% auto 0 auto;
 }
 
 .nb {
-    /*background: linear-gradient (#999966, #3d3d29, #6b6b47);
-    background: -webkit-linear-gradient (#999966, #3d3d29, #6b6b47);
+    /*background: -webkit-linear-gradient (#999966, #3d3d29, #6b6b47);
     background: -moz-linear-gradient (#999966, #3d3d29, #6b6b47);*/
     background-image: url(http://web.archive.org/web/20140301005559im_/http://images.apple.com/global/nav/images/globalnav_text.svg);
 	display: inline-block;
 	height: 30px;
 	vertical-align: middle;
-    width: 72px;
-    border: 1px solid #746f6f;
+    width: 70px;
+    /*border-left: 1px solid #fff;*/
     border-collapse: collapse;
-    
 }
 
 #apple {
     background-position: 50% 0;
+    height: 39px;
+    margin-top: 10px;
+    margin: 10px 10px 0 10px;
 }
 
 #store {
     background-position: 50% -30px;
+    border-left: 1px solid #fff;
 }
 
 #mac {
     background-position: 50% -60px;
+    border-left: 1px solid #fff;
 }
 
 #ipod {
     background-position: 50% -90px;
+    border-left: 1px solid #fff;
 }
 
 #iphone {
     background-position: 50% -120px;
+    border-left: 1px solid #fff;
 }
 
 #ipad {
     background-position: 50% -150px;
+    border-left: 1px solid #fff;
 }
 
 #itunes {
     background-position: 50% -180px;
+    border-left: 1px solid #fff;
 }
 
 #support {
     background-position: 50% -210px;
+    border-left: 1px solid #fff;
+    border-right: 1px solid #fff;
 }
 
 #search {
@@ -77,16 +96,25 @@
 	display: inline-block;
 	height: 15px;
 	width: 15px;
-    vertical-align: middle;   /* See how this works */
+    margin-top: 5px;
 }
 
 #search_box {
     width: 55px;
 }
 
+.search {
+    width: 105px;
+    background-color: #3d3d29;
+    background: linear-gradient(#aaa, #bbb 49%, #999 51%, #888);
+    border: 1px;
+    border-style: inset;
+    border-radius: 15px;
+}
+
 input {
-    max-width: 55px;
-    margin-top: 3px;   /* See how this works */
+    width: 85px;
+    margin-top: 3px; 
 }
 
 .text_links {
@@ -101,7 +129,7 @@ input {
 .main_txt {
     position: relative;
     width: 90%;
-    font-family: Helvetica;
+    font-family: 'Josefin Sans', Helvetica;
     /*font-family: "Arial Unicode MS";*/
     font-size: 60px;
     font-weight: lighter;
@@ -112,7 +140,7 @@ input {
     position: relative;
     width: 95%;
     text-align: center;
-    font-family: Helvetica;
+    font-family: 'Josefin Sans', Helvetica;
     /*font-family: "Arial Unicode MS";*/
     font-size: 25px;
     font-weight: lighter;
@@ -123,7 +151,7 @@ input {
     position: relative;
     width: 95%;
     text-align: center;
-    font-family: Helvetica;
+    font-family: 'Josefin Sans', Helvetica;
     /*font-family: "Arial Unicode MS";*/
     font-size: 20px;
     font-weight: lighter;
